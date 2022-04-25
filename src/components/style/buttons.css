@@ -1,0 +1,20 @@
+:root {
+    --primary: #f1f1f1;
+}
+
+.btn {
+    min-width: 137px;
+    height: 36px;
+    background-color: transparent;
+    border: 2px solid var(--primary);
+    border-radius: 8px;
+    color: var(--primary);
+    font-family: 'Exo', sans-serif;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin: 10px;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
